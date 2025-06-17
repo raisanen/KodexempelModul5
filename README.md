@@ -16,4 +16,21 @@ De valutor metoden ska känna till är:
 - EUR – 11.46
 - (Om en annan valuta anges, returneras värdet oförändrat)
 
-Testa metoden i Main() genom att anropa den med några värden och skriv ut resultatet.
+Testa metoden i `Main()` genom att anropa den med några värden och skriv ut resultatet.
+
+## Exempeluppgift 2
+
+Skapa en metod med metodhuvudet
+```csharp
+static void TestExchangeToSEK(string currency, double val)
+```
+
+Metoden ska användas för att testa metoden ExchangeToSEK från förra uppgiften:
+Den anropar ExchangeToSEK och skriver sedan ut resultatet i formatet:
+
+```csharp
+"{val} {currency} är {resultat} SEK”
+``` 
+
+Anropa den tre gånger från Main, med olika testvärden.
+
