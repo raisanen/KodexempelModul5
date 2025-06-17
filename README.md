@@ -29,7 +29,7 @@ Metoden ska användas för att testa metoden ExchangeToSEK från förra uppgiften:
 Den anropar ExchangeToSEK och skriver sedan ut resultatet i formatet:
 
 ```csharp
-"{val} {currency} är {resultat} SEK”
+"{val} {currency} är {resultat} SEK"
 ``` 
 
 Anropa den tre gånger från Main, med olika testvärden.
